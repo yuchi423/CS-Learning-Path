@@ -8,11 +8,16 @@
 
 ---
 ***<font color="#c3d69b">正式纪录开始</font>***
-| 2026-03-09 | 学校oj | class的封装用法|
+**<font color="#f79646">| 2026-03-09 | 学校oj | class的封装用法|</font>**
 -----------------------------------
 >第一次对面向对象编程进行实践
 >力扣刷题不用管输入输出真好啊……
 >调试git bash上传流程花了好久！
+
+**<font color="#f79646">| 2026-03-10 |</font>** [739.每日温度]([739. 每日温度 - 力扣（LeetCode）](https://leetcode.cn/problems/daily-temperatures/) **<font color="#f79646">|</font>** [单调栈](obsidian://open?vault=CS%E5%AD%A6%E4%B9%A0&file=1.Data%20Structures%2F1.3%20%E6%A0%88%2F1.3.1%20%E5%8D%95%E8%B0%83%E6%A0%88) **<font color="#f79646">|</font>**
+>暂时还没找到比较好的作息安排、所以目前只能保证每天一道力扣……
+>单调栈的相关内容很值得思考，等剩下的题目做完再给出总结吧
+
 
 
 
