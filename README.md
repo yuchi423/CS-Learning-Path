@@ -1,3 +1,4 @@
+
 # 2026-3-04 这是用git bash上传GitHub的第一个尝试！！
 
 ### 📅 刷题日志
@@ -25,5 +26,8 @@
 
 
 
+| 2026-03-12 | [209.长度最小的子数组]([209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)) [713.乘积小于k的子数组]([713. 乘积小于 K 的子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/subarray-product-less-than-k/description/))[1695.删除子数组的最大得分]([1695. 删除子数组的最大得分 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-erasure-value/description/))| [滑动窗口](obsidian://open?vault=CS%E5%AD%A6%E4%B9%A0&file=3.Question%20Archive%2FLeetcode%2F%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3) |
+>今天难得学习力upup写了三道力扣medium题，果然对于cs学习的重要性来说学习效率>>>学习时间。自从刻意延长睡眠时间后非常清晰体会到这点、每天的念头仿佛无休止的泡沫在脑海里浮现
+>仍旧是按照“10min思考->10min编写->看灵神教程思路->反思总结的学习路径。效果非常显著，1695题做到了在10分钟内独立手撕、并且对滑动窗口有了许多理解。
 
 
