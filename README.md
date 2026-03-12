@@ -1,5 +1,8 @@
+>*开头的碎碎念:*这是我简略的cs学习日志，它记录了我在计算机学习路上每一次磕绊、每一次逻辑的断层，以及每一次突然的顿悟。<br>毕竟我始终坚信：重要的从来不是旅途预设的奇观，而是我们在旅途中的姿态。-2026-03-13<br>
+>A Brief Prologue: This is my humble CS learning journal. It documents every stumble, every logical disconnect, and every "Aha!moments" along my path in computer science.<br>After all, I have always believed that what truly matters is never the promised wonders of the destination, but the stance we hold while navigating the journey.-2026-03-13
 
-# 2026-3-04 这是用git bash上传GitHub的第一个尝试！！
+
+#2026-3-04  这是用git bash上传GitHub的第一个尝试！！
 
 ### 📅 刷题日志
 | 日期         | 题目                                                                                                                             | 知识点      | 心得感悟 |
