@@ -51,3 +51,6 @@
 | 2026-03-17 | [35. 搜索插入位置 ](https://leetcode.cn/problems/search-insert-position/solutions/)[704. 二分查找 ](https://leetcode.cn/problems/binary-search/description/)[744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/)[2529. 正整数和负整数的最大计数 ](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/description/)[2300. 咒语和药水的成功对数 ](https://leetcode.cn/problems/successful-pairs-of-spells-and-potions/description/) | 二分查找 |
 >今天做的题只有一道是medium的所以写的很快hhh<br>关于二分查找if条件的判定，有一种很简单的记忆方法就是“lf指针总会停在第一个不满足if条件的位置，ri指针总会停在最后一个满足if条件的位置”，之后做题其实就是对这个规律的各种应用。<br>我猜想对于具有单调性的迭代器都可以用到二分查找，即使算上排序nlogn的时间复杂度也是相当可观的优化了<br>前天想到的“用文字本身的表现形式呈现情感”idea今天查了相关资料，CMU居然在20年前就有论文讨论这一点，这篇论文甚至成为了后续kinetic typography的基石。而我用ai进行语句分析、根据句子意境自动选择最合适的文字呈现形式的想法，MIT在2023年也有论文进行一样的研究。这种想法撞车的感觉很奇妙hhh，以后真的要做项目的话就可以直接套用前辈的轮子了（<br>而且没准做这个项目的经历本身还能写篇论文？:)<br>然后今天有了在小红书上同步更新日志的方法，毕竟GitHub上真的不会有人看得到啊QAQ  为什么小红书的流量那么多！！
 -----------------------------------
+| 2026-03-18 |[2563. 统计公平数对的数目](https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/)| 二分查找 | ai agent原理及配置|
+>当然说是学了ai agent原理也只是看了个科普性的介绍啦<br>今天写LC.2563没有关注左右指针的闭区间问题吃了非常大的亏。以后遇见边界判断不清的情况一定要考虑自己开闭区间是否一致！不过好在总体思路是非常正确的。<br>前几天被BaiFu狠狠激励到了，今天又在看文章时关注到一篇项目开发过程“MVP”原则的介绍。目前想先试着构建ai agent来把之前提到的idea做个最小可执行单元出来。
+-----------------------------------
