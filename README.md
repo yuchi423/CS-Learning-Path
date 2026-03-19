@@ -54,3 +54,7 @@
 | 2026-03-18 |[2563. 统计公平数对的数目](https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/)| 二分查找 | ai agent原理及配置|
 >当然说是学了ai agent原理也只是看了个科普性的介绍啦<br>今天写LC.2563没有关注左右指针的闭区间问题吃了非常大的亏。以后遇见边界判断不清的情况一定要考虑自己开闭区间是否一致！不过好在总体思路是非常正确的。<br>前几天被BaiFu狠狠激励到了，今天又在看文章时关注到一篇项目开发过程“MVP”原则的介绍。目前想先试着构建ai agent来把之前提到的idea做个最小可执行单元出来。
 -----------------------------------
+| 2026-03-19 | [875. 爱吃香蕉的珂珂 ](https://leetcode.cn/problems/koko-eating-bananas/description/) | 二分查找、部署ai agent|
+-----------------------------------
+>这题虚空造二分的想法也太强了……简单来说就是先确定答案的上下界，用一个check函数检测二分过程中mid指针是否满足答案条件。其它的都与先前相同，无非是把if条件换成了check返回的bool值而已。
+>跟着CSDN的教程装了docker搞milvus、又安装了相关库，成功用ai agent完成pdf的检索与输出。
