@@ -82,3 +82,8 @@
 | 2026-03-26 | [876. 链表的中间结点 ](https://leetcode.cn/problems/middle-of-the-linked-list/description/) [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/)[142. 环形链表 II ](https://leetcode.cn/problems/linked-list-cycle-ii/description/)| 链表、操作符重载
 >今天用到了快慢指针。在学校作业平台上完成了操作符重载的相关作业。<br>越来越感觉自己每天刷力扣学到的各种更像是trick而不是知识。日志一天天都是刷题记录其实只是一种形式光鲜的偷懒方式……为什么选择刷力扣？因为我不用为决策负责。只要跟着题单刷就能提升coding、学会算法---线性增长的回报与预期的彼岸……这与高中思维无异。<br>所以最近听学校c++的课和写作业都很烦躁，今天写class的实现也是不想做。因为他没刷题爽，而且总会潜意识地觉得“太基础”。计算机能学的很多，日志只是写力扣未免过于平庸。
 -----------------------------------
+| 2026-03-27 | [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/description/)[82. 删除排序链表中的重复元素 II ](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/description/) 链表
+
+| 2026-03-29 | 华工程序设计春季赛
+>第一次打acm赛制的比赛。自己目前只能做到给队友翻译题目想想测试案例和提供情绪价值的作用……要学的还是太多了。虽然最后没有拿牌子，但五个小时的比赛也是新的体验。
+-----------------------------------
