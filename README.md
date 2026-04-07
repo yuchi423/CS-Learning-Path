@@ -103,7 +103,9 @@
 >跟着GitHub上的vibecoding教程学了两章，真的有觉得学到东西
 >自己以前觉得ai做出来的东西不尽人意其实是因为自己”缺少精确描述“。vibe coding真的就只是靠vibe了(((<br>先简单做了个展示个人主页的demo，未来几天就继续把这个课程学完吧。
 -----------------------------------
-| 2026-04-03 | [填写题目]() | [填写知识点]() |
+| 2026-04-04 |  [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/) | 二叉树|
+>花了不少时间也算是把这道题前中后序三种方式全部搞明白了。前序遍历是自顶向下的：根->左->右的方式，父节点判断自己是否满足条件，随后将更新后的边界条件传给左右子节点。后序遍历是自下而上：经济基础决定上层建筑，由子节点确定根节点的边界条件。中序遍历则是利用BST的严格单调性，通过树在数轴上的一维投影判断是否满足。<br>从后序节点也感悟到了结构体的运用。如果希望函数返回的信息是多维的就可以考虑结构体。<br>越来越感觉递归才是真正的vibe coding() 我发现递归只要凭感觉写，想着“它这功能一定能满足，怎么满足你别管”反而总能AC。
 -----------------------------------
-| 2026-04-04 | [填写题目]() | [填写知识点]() |
+| 2026-04-07 | [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/description/)[2441. 与对应负数同时存在的最大正整数 ](https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative/description/)[2016. 增量元素之间的最大差值 ](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/description/)[1. 两数之和 ](https://leetcode.cn/problems/two-sum/description/)| [编程基础-枚举技巧 |
+>灵神题单第三章居然是那么多道基础题……要花一段时间了。<br>不过自己比上个月已经强多了hhh，一个月前第一题都要花不少时间还WA了一次。但现在就直接秒掉了。
 -----------------------------------
