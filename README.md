@@ -109,3 +109,6 @@
 | 2026-04-07 | [1512. 好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/description/)[2441. 与对应负数同时存在的最大正整数 ](https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative/description/)[2016. 增量元素之间的最大差值 ](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/description/)[1. 两数之和 ](https://leetcode.cn/problems/two-sum/description/)| [编程基础-枚举技巧 |
 >灵神题单第三章居然是那么多道基础题……要花一段时间了。<br>不过自己比上个月已经强多了hhh，一个月前第一题都要花不少时间还WA了一次。但现在就直接秒掉了。
 -----------------------------------
+| 2026-04-09 |[2016. 增量元素之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/description/)[2342. 数位和相等数对的最大和 ](https://leetcode.cn/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)| 枚举技巧 |
+>最近效率好低，而且工作日日更都做不到。<br>生活中很多事很烦心<br>好好娱乐，好好学习，好好睡觉。加油。
+-----------------------------------
