@@ -112,7 +112,11 @@
 | 2026-04-09 |[2016. 增量元素之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/description/)[2342. 数位和相等数对的最大和 ](https://leetcode.cn/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/)| 枚举技巧 |
 >最近效率好低，而且工作日日更都做不到。<br>生活中很多事很烦心<br>好好娱乐，好好学习，好好睡觉。加油。
 -----------------------------------
-| 2026-04-11 | [1679. K 和数对的最大数目 ](https://leetcode.cn/problems/max-number-of-k-sum-pairs/description/)[2260. 必须拿起的最小连续卡牌数 ](https://leetcode.cn/problems/minimum-consecutive-cards-to-pick-up/description/)| 枚举技巧 |
+| 2026-04-11 | [1679. K 和数对的最大数目 ](https://leetcode.cn/problems/max-number-of-k-sum-pairs/description/)[2260. 必须拿起的最小连续卡牌数 ](https://leetcode.cn/problems/minimum-consecutive-cards-to-pick-up/description/)| 枚举技巧 ，vibecoding|
 >2260看到连续区间第一时间想到的就是滑动窗口，但反复尝试未果。最后想起滑动窗口的答案出现在”条件合法“的时刻，而本题的答案出现在合法转向不合法的瞬间。所以用哈希表记录是一个好想到的最优解。
->昨天偶然了解到某位同龄人博主的私事，深有感触。经过一晚上的反思写了篇文章。我想我很长一段时间内不会再内耗了。
+>昨天偶然了解到某位同龄人博主的私事，深有感触。当晚骑车二十公里、经过一晚上的反思写了篇文章。我对这篇文章很满意，算得上是对自己很长一段时间行动方向和价值观的革命升级。我想我很长一段时间内不会再内耗了。
+>下午用Trae借ai继续做了个人主页的小项目，感觉搞得不错了已经hhh
 -----------------------------------
+| 2026-04-12 | [填写题目]() | [填写知识点]() |
+-----------------------------------
+
