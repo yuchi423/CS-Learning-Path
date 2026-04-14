@@ -122,5 +122,11 @@
 -----------------------------------
 | 2026-04-13 | [3805. 统计凯撒加密对数目 ](https://leetcode.cn/problems/count-caesar-cipher-pairs/description/) [3623. 统计梯形的数目 I ](https://leetcode.cn/problems/count-number-of-trapezoids-i/description/)| 枚举技巧 git版本管理 |
 >3623逻辑还是没写明白，先放着等学了前缀和回头写吧。在vibe coding做主页的时候学了下git版本管理以及项目本地化的存储方法。才意识到不一定要在GitHub上开一个repo。
------------------------------------
+----------------------------------
+| 2026-04-14 |[303. 区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/description/) [3427. 变长子数组求和](https://leetcode.cn/problems/sum-of-variable-length-subarrays/description/) [2559. 统计范围内的元音字符串数 ](https://leetcode.cn/problems/count-vowel-strings-in-ranges/description/)| [前缀和]() git版本管理|
+[[前缀和]]
+303模板题。关键要记清：新设置的前缀和数组大小为n+1，ri表示我的前缀中有多少个数，lf表示要减去多少个数。所以ri=4时、lf=1时，需要计算1+……+5-1，其中前缀有5个数所以ri+1=5，减去1个数所以lf=1
+做题时直接这样想就行。数学本质是高中的数列加和。后续的题也只是在lf和ri上有所变换而已。<br>第一次把一个大项目copy到本地，好好学了下git各种用法。最近想试着深入了解langchain，但感觉死读文档和看教学视频问题一是效率低，二是学的无趣不愿意学。所以想直接借助agent帮忙的方式辅助学习。<br>具体的流程是这样的：设置CLAUDE.md文件夹先实现设置好相关prompt，让agent记住后让他以项目式学习法把所有教程存入 tutorial/ 
+自动扫描当前项目结构，在 tutorial/index.md 中生成一份30课的课程大纲，涵盖环境搭建、Tools 定义、规划逻辑和 MCP。力求做到让我详细理解deepagent项目以及，最重要的，背后的langchain原理。我大致看了下效果很好，从配环境开始一步步教到最后。当然课程内容肯定还是要有后续补充的，所以我装了gitlen插件来进行版本管理，让agent在每次修改文件的时候都自动帮我commit一次，并按照git commit的标准规范做好备注。<br>这一套搞下来很有趣。时间很快过去了，虽然还没正式开始学（   之后就按照课程慢慢补充吧。
 
+-----------------------------------

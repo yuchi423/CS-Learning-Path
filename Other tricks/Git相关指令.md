@@ -152,9 +152,22 @@ git checkout -- MyIntro.html
 
 # 第1步：查看所有版本
 
-git log --oneline
+git log --oneline >>会进入pager模式
+### 2. 在 Pager 模式下的常用操作
 
-  
+既然进来了，顺便掌握几个基本的“逃生”和浏览技巧，以后查日志会很方便：
+
+- **`j` / `k`** 或 **方向键**：向上/向下滚动一行。
+    
+- **`f` / `b`**：向下/向上翻一页（Forward/Backward）。
+    
+- **`/关键词`**：输入斜杠加文字可以进行搜索。
+    
+- **`q`**：**永远的退出键。**
+
+**强制不启用分页器**： `git --no-pager log --oneline`
+
+**限制条数**： `git log --oneline -n 5`
 
 # 第2步：选中某个版本号（比如 d4e309d），看它的改动
 
@@ -237,3 +250,84 @@ git reset --hard master
 git reset --hard d4e309d
 
 ```
+
+
+
+如何学习项目：
+  git clone <URL>(git clone自动执行了git init， git remote add origin <URL>, git fetch & git checkout)
+之后如何修改代码而不与作者更新冲突？
+#### 方案 A：建立自己的“实验分支”（最推荐）
+
+不要在 `main` 分支上改。你可以开辟一个属于你自己的平行时空：
+
+1. **创建并切换到新分支**：
+    
+    Bash
+    
+    ```
+    git checkout -b my-study
+    ```
+    
+    _现在你就在 `my-study` 分支了，你可以随便改代码，甚至删光都没关系。_
+    
+2. **当你想看作者的更新时**： 先切回主分支，再拉取。
+    
+    Bash
+    
+    ```
+    git checkout main
+    git pull
+    ```
+    
+3. **如何把作者的新代码合到你的实验里？** 切回你的分支，把 `main` 合并进来。
+    
+    Bash
+    
+    ```
+    git checkout my-study
+    git merge main
+    ```
+    
+
+#### 方案 B：利用 `git stash`（临时保存法）
+
+如果你已经在 `main` 分支改了一半，突然想同步作者的代码：
+
+1. **把你的改动“藏”起来**：
+    
+    Bash
+    
+    ```
+    git stash
+    ```
+    
+    _你会发现代码瞬间变回了没改之前的样子。_
+    
+2. **执行同步**：
+    
+    Bash
+    
+    ```
+    git pull
+    ```
+    
+3. **把你的改动“取”回来**：
+    
+    Bash
+    
+    ```
+    git stash pop
+    ```
+    
+    _Git 会尝试把你的改动按在作者的新代码上。_
+    
+
+- **准备**：新建 `.env` 填入密钥 -> 在 `.gitignore` 里加入 `.env`。
+    
+- **开工**：`git checkout -b learn-deepagents`。
+    
+- **实验**：在代码里加注释、改逻辑、跑 Demo。
+    
+- **存档**：`git add .` -> `git commit -m "feat: 跑通了感知模块并增加了中文注释"`。
+    
+- **同步**：想看作者更新了没？`git checkout main` -> `git pull`。
