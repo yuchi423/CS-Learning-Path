@@ -136,3 +136,7 @@
 | 2026-04-16 | [3152. 特殊数组 II](https://leetcode.cn/problems/special-array-ii/description/)[1749. 任意子数组和的绝对值的最大值 ](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/description/)[53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/)| 前缀和、项目环境配置 |
 >1749和53真的让我狠狠重新思考了下前缀和。原本只是当作一种随时套用的trick，但今天加深了理解：前缀和是对差分的逆运算，用点来记录从起始到当前状态’能量‘的累积，而子区间的和则表示”状态的变化量“。因此通过画折线图来分析最值是个很值得考虑的选项。前缀和是依赖于运算的可逆性的，因此在四则运算和异或运算中都能用上，但如果运算是不可逆的就无法运用--这点让我想到线代中逆矩阵只有在det为0，也就是不降维时是存在的，两点挺相似，前缀和或许也能用某种矩阵运算表示（<br>跑了下test发现昨天的环境并没有配好hhh，又跟着教案花了很多时间配环境。了解到了uv的作用、虚拟环境的概念和作用，editable安装的意义等知识。
 -----------------------------------
+| 2026-04-18 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/) [1014. 最佳观光组合 ](https://leetcode.cn/problems/best-sightseeing-pair/description/)[560. 和为 K 的子数组 ](https://leetcode.cn/problems/subarray-sum-equals-k/description/)| [填写知识点]() |
+-----------------------------------
+| 2026-04-19 |[1524. 和为奇数的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum/description/) [930. 和相同的二元子数组 ](https://leetcode.cn/problems/binary-subarrays-with-sum/description/)| [填写知识点]() |
+-----------------------------------
