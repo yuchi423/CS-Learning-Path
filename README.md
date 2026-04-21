@@ -136,7 +136,11 @@
 | 2026-04-16 | [3152. 特殊数组 II](https://leetcode.cn/problems/special-array-ii/description/)[1749. 任意子数组和的绝对值的最大值 ](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/description/)[53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/)| 前缀和、项目环境配置 |
 >1749和53真的让我狠狠重新思考了下前缀和。原本只是当作一种随时套用的trick，但今天加深了理解：前缀和是对差分的逆运算，用点来记录从起始到当前状态’能量‘的累积，而子区间的和则表示”状态的变化量“。因此通过画折线图来分析最值是个很值得考虑的选项。前缀和是依赖于运算的可逆性的，因此在四则运算和异或运算中都能用上，但如果运算是不可逆的就无法运用--这点让我想到线代中逆矩阵只有在det为0，也就是不降维时是存在的，两点挺相似，前缀和或许也能用某种矩阵运算表示（<br>跑了下test发现昨天的环境并没有配好hhh，又跟着教案花了很多时间配环境。了解到了uv的作用、虚拟环境的概念和作用，editable安装的意义等知识。
 -----------------------------------
-| 2026-04-18 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/) [1014. 最佳观光组合 ](https://leetcode.cn/problems/best-sightseeing-pair/description/)[560. 和为 K 的子数组 ](https://leetcode.cn/problems/subarray-sum-equals-k/description/)| [填写知识点]() |
+| 2026-04-18 | [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/) [1014. 最佳观光组合 ](https://leetcode.cn/problems/best-sightseeing-pair/description/)[560. 和为 K 的子数组 ](https://leetcode.cn/problems/subarray-sum-equals-k/description/)| [前缀和]() |
+>之前做题的思想总是”把每一种情况都确定下来“，但实际上和的累积可以通过记录”我要找的数在之前出现过了几次“、然后直接加起来就行。而且如果要用有限个“属性”来记录的话，声明数组或变量的耗时比哈希表要短许多、不应该套模板做题的
+----------------------------------
+| 2026-04-19 |[1524. 和为奇数的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum/description/) [930. 和相同的二元子数组 ](https://leetcode.cn/problems/binary-subarrays-with-sum/description/)| [前缀和]() |
 -----------------------------------
-| 2026-04-19 |[1524. 和为奇数的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum/description/) [930. 和相同的二元子数组 ](https://leetcode.cn/problems/binary-subarrays-with-sum/description/)| [填写知识点]() |
+| 2026-04-21 | [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/description/)[1590. 使数组和能被 P 整除 ](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)| 前缀和、deepagent项目结构 |
+>跟着教案拆解了deepagent的项目结构，了解了monorepo之类的概念。middleware的处理和作用真的很有趣
 -----------------------------------
