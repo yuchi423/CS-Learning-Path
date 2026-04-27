@@ -144,3 +144,14 @@
 | 2026-04-21 | [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/description/)[1590. 使数组和能被 P 整除 ](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)| 前缀和、deepagent项目结构 |
 >跟着教案拆解了deepagent的项目结构，了解了monorepo之类的概念。middleware的处理和作用真的很有趣
 -----------------------------------
+| 2026-04-24|  [1094. 拼车 ](https://leetcode.cn/problems/car-pooling/description/)[2848. 与车相交的点 ](https://leetcode.cn/problems/points-that-intersect-with-cars/description/)[1893. 检查是否区域内所有整数都被覆盖 ](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/description/)[1854. 人口最多的年份 ](https://leetcode.cn/problems/maximum-population-year/description/)| [差分]() |
+差分最巧妙的是该性质：**性质 2**：如下两个操作是等价的。
+- 把 a 的子数组 a[i],a[i+1],…,a[j] 都加上 x。
+- 把 d[i] 增加 x，把 d[j+1] 减少 x。<br>
+>通过该性质可以实现对区间变化情况的处理，将一整段区间转化为对两个点的O(1)操作<br>
+>差分前缀和相加可以得到state，用来记录当下那个点的变化情况，在停车等区间调度问题时最终会变回0。覆盖类问题应当通过检测该点来对另一个和进行加减。
+----------------------------------
+| 2026-04-27 | [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/description/)|差分、deepagent |
+>今天看项目了解到了.invoke()这类通用接口，跟cpp的polymophism很像。也明白了message的基本概念
+-----------------------------------
+
