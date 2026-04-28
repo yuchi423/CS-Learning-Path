@@ -154,4 +154,7 @@
 | 2026-04-27 | [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/description/)|差分、deepagent |
 >今天看项目了解到了.invoke()这类通用接口，跟cpp的polymophism很像。也明白了message的基本概念
 -----------------------------------
+| 2026-04-28 | [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/description/)[844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/description/) [682. 棒球比赛](https://leetcode.cn/problems/baseball-game/description/)| [栈]() agent|
+>栈的题目写起来很有意思，但也有可能是差分前缀和太枯燥了吧呵呵<br>
+-----------------------------------
 
