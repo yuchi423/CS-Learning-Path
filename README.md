@@ -155,6 +155,10 @@
 >今天看项目了解到了.invoke()这类通用接口，跟cpp的polymophism很像。也明白了message的基本概念
 -----------------------------------
 | 2026-04-28 | [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/description/)[844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/description/) [682. 棒球比赛](https://leetcode.cn/problems/baseball-game/description/)| [栈]() agent|
->栈的题目写起来很有意思，但也有可能是差分前缀和太枯燥了吧呵呵<br>
+>栈的题目写起来很有意思，但也有可能是差分前缀和太枯燥了吧呵呵<br>想在copilot把deepseekv4接进去，可惜平台不支持。后来尝试部署cloud ollama，但找不到更改json的地方。最后还是因为不支持返回ds的思考内容一直报错……是时候换agent了
 -----------------------------------
+| 2026-04-30 | [1472. 设计浏览器历史记录 - 力扣](https://leetcode.cn/problems/design-browser-history/description/)[946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/description/)[71. 简化路径 ](https://leetcode.cn/problems/simplify-path/description/)|栈|
+>主要搞熟悉了stringstream的用法。<br>终于用上Claudecode了！
+-----------------------------------
+
 
