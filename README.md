@@ -159,6 +159,8 @@
 -----------------------------------
 | 2026-04-30 | [1472. 设计浏览器历史记录 - 力扣](https://leetcode.cn/problems/design-browser-history/description/)[946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/description/)[71. 简化路径 ](https://leetcode.cn/problems/simplify-path/description/)|栈|
 >主要搞熟悉了stringstream的用法。<br>终于用上Claudecode了！
+----------------------------------
+| 2026-05-02 |  | [填写知识点]() |
 -----------------------------------
 
 
