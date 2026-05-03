@@ -160,7 +160,10 @@
 | 2026-04-30 | [1472. 设计浏览器历史记录 - 力扣](https://leetcode.cn/problems/design-browser-history/description/)[946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/description/)[71. 简化路径 ](https://leetcode.cn/problems/simplify-path/description/)|栈|
 >主要搞熟悉了stringstream的用法。<br>终于用上Claudecode了！
 ----------------------------------
-| 2026-05-02 |  | [填写知识点]() |
+| 2026-05-02 | [2696. 删除子串后的字符串最小长度 ](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/description/) [1047. 删除字符串中的所有相邻重复项 ](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/description/)| 栈 |
+>
+----------------------------------
+| 2026-05-03 |  spec-driven-development初尝试
+>之前想了解黑客松，看到别人推荐的devpost官方发起的黑客松新手的比赛。虽然截止时间已经过了，但资源还在。他的流程是这样的，转换了你和agent的角色，由它问问题-你回答的方式逐步确定你的项目喜好、架构管理、技术栈偏好、边界条件处理等内容。以.md的形式将对话存储以供不同阶段的开发、同时避免了过长上下文导致的模型失能。而这一切都很简单，只需要给Claude code安装plugin就可以全自动进行了。今天搞了三个多小时还没弄好。自己做项目总是由一个“自己觉得有趣的idea”开始，然后在实践的过程中因为一次次的技术妥协而降低期望……希望这次能做些不一样的结果。
 -----------------------------------
-
 
