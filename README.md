@@ -165,5 +165,7 @@
 ----------------------------------
 | 2026-05-03 |  spec-driven-development初尝试
 >之前想了解黑客松，看到别人推荐的devpost官方发起的黑客松新手的比赛。虽然截止时间已经过了，但资源还在。他的流程是这样的，转换了你和agent的角色，由它问问题-你回答的方式逐步确定你的项目喜好、架构管理、技术栈偏好、边界条件处理等内容。以.md的形式将对话存储以供不同阶段的开发、同时避免了过长上下文导致的模型失能。而这一切都很简单，只需要给Claude code安装plugin就可以全自动进行了。今天搞了三个多小时还没弄好。自己做项目总是由一个“自己觉得有趣的idea”开始，然后在实践的过程中因为一次次的技术妥协而降低期望……希望这次能做些不一样的结果。
+----------------------------------
+| 2026-05-07 | [20. 有效的括号 ](https://leetcode.cn/problems/valid-parentheses/description/)[921. 使括号有效的最少添加](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/description/)[1021. 删除最外层的括号 ](https://leetcode.cn/problems/remove-outermost-parentheses/description/)| 栈|
+>依旧刷了栈。自己上手写点力扣外的东西才感觉leetcode算法这些玩意有基础的了解就好,没有oi基础打算法竞赛ROI太低、也不是我喜欢的事。周赛打再多分也做不出一个实际的产品有什么用呢
 -----------------------------------
-
