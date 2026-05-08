@@ -169,3 +169,9 @@
 | 2026-05-07 | [20. 有效的括号 ](https://leetcode.cn/problems/valid-parentheses/description/)[921. 使括号有效的最少添加](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/description/)[1021. 删除最外层的括号 ](https://leetcode.cn/problems/remove-outermost-parentheses/description/)| 栈|
 >依旧刷了栈。自己上手写点力扣外的东西才感觉leetcode算法这些玩意有基础的了解就好,没有oi基础打算法竞赛ROI太低、也不是我喜欢的事。周赛打再多分也做不出一个实际的产品有什么用呢
 -----------------------------------
+| 2026-05-08 | [856. 括号的分数 ](https://leetcode.cn/problems/score-of-parentheses/description/)| 栈  cc plugin|
+856题的思想非常有趣，用数字表示括号深度来进行计算，省却了对内外括号判断的冗杂逻辑。
+
+>写学校大作业时突然想起以前学cs61A时的项目流程，再加上前几天agentic-workflow的学习流程让我感觉效率极高、记忆犹新。于是将二者结合做了个Project-Tutor的plugin。格式仿照之前在黑客松看到的教程和anthropic官方文档。很深切体会到prompt最主要的作用是constraint而不是什么”你的语气像是那些最聪明的人“这种cosplay！！
+-----------------------------------
+
