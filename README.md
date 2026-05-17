@@ -172,6 +172,18 @@
 | 2026-05-08 | [856. 括号的分数 ](https://leetcode.cn/problems/score-of-parentheses/description/)| 栈  cc plugin|
 856题的思想非常有趣，用数字表示括号深度来进行计算，省却了对内外括号判断的冗杂逻辑。
 
->写学校大作业时突然想起以前学cs61A时的项目流程，再加上前几天agentic-workflow的学习流程让我感觉效率极高、记忆犹新。于是将二者结合做了个Project-Tutor的plugin。格式仿照之前在黑客松看到的教程和anthropic官方文档。很深切体会到prompt最主要的作用是constraint而不是什么”你的语气像是那些最聪明的人“这种cosplay！！
+>写学校大作业时突然想起以前学cs61A时的项目流程，再加上前几天agentic-workflow的学习流程让我感觉效率极高、记忆犹新。于是将二者结合做了个Project-Tutor的plugin。格式仿照之前在黑客松看到的教程和anthropic官方文档。很深切体会到prompt最主要的作用是constraint而不是什么”你的语气像是那些最聪明的人“这种cosplay。
 -----------------------------------
+| 2026-05-10 | [1249. 移除无效的括号](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/description/)[150. 逆波兰表达式求值 ](https://leetcode.cn/problems/evaluate-reverse-polish-notation/description/)| 栈、课程设计 |
+  1249的思路很有趣。我们知道括号的合法性一般用栈解决，但当括号中间出现了其他字符时我们这个思路就显得简单苍白。这题的解决思路是：仅将栈用以存储括号，合法的括号正常消除，剩下的自然就是不合法的括号。此时修改原字符串的不合法部分为星号占位符，在之后用一个循环将不是星号占位符的char'添加到答案中。也就是把不好处理的部分暂且按下不表留到后续处置。
+  
+-----------------------------------
+| 2026-05-14| [224. 基本计算器 ](https://leetcode.cn/problems/basic-calculator/description/) |栈 |
+
+--------------------
+
+| 2026-05-15 | [933. 最近的请求次数 ](https://leetcode.cn/problems/number-of-recent-calls/description/)[填写知识点]() [3829. 设计共享出行系统 ](https://leetcode.cn/problems/design-ride-sharing-system/description/)[950. 按递增顺序显示卡牌 ](https://leetcode.cn/problems/reveal-cards-in-increasing-order/description/)| 队列| 
+> 950可以用逆向思维，由于每一步操作都是可撤回的，那么我们就能用答案反推初始状态。写程序的过程只是一种模拟而已。
+
+
 
