@@ -184,6 +184,10 @@
 
 | 2026-05-15 | [933. 最近的请求次数 ](https://leetcode.cn/problems/number-of-recent-calls/description/)[填写知识点]() [3829. 设计共享出行系统 ](https://leetcode.cn/problems/design-ride-sharing-system/description/)[950. 按递增顺序显示卡牌 ](https://leetcode.cn/problems/reveal-cards-in-increasing-order/description/)| 队列| 
 > 950可以用逆向思维，由于每一步操作都是可撤回的，那么我们就能用答案反推初始状态。写程序的过程只是一种模拟而已。
-
-
-
+---------------------
+| 2026-05-18 |  堆 | 
+> 
+-----------------------------------
+| 2026-05-19 | 积压订单的订单总数、Single-Threaded CPU | 堆
+>最近leetcode也一直在做，只是觉得「如果我的cs学习日志如果就只是力扣刷题，那未免也太寒酸无趣了吧？」所以很难有记录的欲望。该库本就是Obsidian的笔记库，当然题目和解析心得还是会正常写下去啦。以后的更新应该让自己专注于新的技术栈的学习和尝试上。越来越觉得刷leetcode除了在入门期锻炼coding能力，其实只是对真正cs学习的逃避。
+-----------------------------------
